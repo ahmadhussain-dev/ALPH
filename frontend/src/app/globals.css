@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111111;
+  --muted: #666666;
+  --border: #dddddd;
+  }
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+input,
+select,
+textarea {
+  background-color: #ffffff;
+  color: #111111;
+  border: 1px solid #dddddd;
+}
+
+input::placeholder {
+  color: #888888;
+}
+
+select option {
+  background: #ffffff;
+  color: #111111;
+}
